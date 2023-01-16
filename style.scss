@@ -6,7 +6,7 @@
 
 body {
     position: relative;
-    background-color: #000;
+    background-color: black;
 }
 
 
@@ -15,7 +15,6 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    /* background: #000; */
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -128,10 +127,8 @@ nav .logo {
        min-height: 100vh;
        max-width: 100vw; 
        object-fit: cover;
+       object-position: 50% 50%;
    }
-   .mobile img {
-   }
-
 }
  /*******************VIDEO - PHOTO********************************************/
  main {
@@ -139,9 +136,10 @@ nav .logo {
     background-color: #000;
  }
 
- main .desktop {
-    width: 100%;
-    object-fit: contain;
+ .myVideo {
+   min-width: 100vw;
+   max-height: 100vh;
+   object-fit: cover;
  }
 
  /*----------------------------------------------FOOTER--------------------------------------*/
