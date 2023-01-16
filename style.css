@@ -1,3 +1,4 @@
+@import url(./assets/DharmaGothicE-Regular/style.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,9 +23,15 @@ nav {
   z-index: 100;
 }
 
+#nav-black {
+  background-color: #000;
+  border-bottom: 1px solid grey;
+}
+
 nav .mainMenu {
   display: flex;
   list-style: none;
+  padding-top: 25px;
 }
 
 nav .mainMenu li a {
@@ -34,7 +41,7 @@ nav .mainMenu li a {
   text-transform: uppercase;
   color: #fff;
   font-size: 1.5rem;
-  font-family: "Montserrat";
+  font-family: "DharmaGothicE-Regular";
 }
 
 nav .mainMenu li a:hover {
@@ -59,8 +66,8 @@ nav .mainMenu .closeMenu, .icons i {
   color: rgb(0, 110, 255);
 }
 
-.fa-twitter:hover {
-  color: rgb(86, 110, 255);
+.fa-youtube:hover {
+  color: red;
 }
 
 .fa-instagram:hover {
@@ -117,6 +124,7 @@ nav .logo img {
   }
   nav .openMenu {
     display: block;
+    margin: 10px 20px;
   }
   nav .mainMenu li a:hover {
     background: none;
@@ -267,7 +275,7 @@ footer .footer-bottom p a {
   grid-gap: 6rem;
   margin-bottom: 10%;
   margin-top: 10%;
-  font-family: "Montserrat";
+  font-family: "Roboto Condensed";
 }
 
 .contact-img img {
@@ -282,6 +290,7 @@ footer .footer-bottom p a {
   font-size: 80px;
   margin-bottom: 20px;
   color: white;
+  font-family: "DharmaGothicE-Regular";
 }
 .contact-form h1 span {
   color: red;
