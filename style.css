@@ -341,10 +341,10 @@ footer .footer-bottom p a {
 }
 
 .contact-form form .btn:hover {
-  border: 2px solid #f9004d;
+  border: 2px solid green;
   background: transparent;
-  scale: 1.1;
-  color: #000;
+  scale: 1.03;
+  color: green;
 }
 
 @media (max-width: 1570px) {
