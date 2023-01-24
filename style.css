@@ -262,6 +262,10 @@ footer .footer-bottom p a {
   margin-top: 200px;
   background-color: red;
 }
+.coaching-domicile .tarifs {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
 
 /*------------------------------CONTACT---------------------------------*/
 .contact {

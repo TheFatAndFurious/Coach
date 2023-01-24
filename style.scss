@@ -270,6 +270,11 @@ nav .logo {
     margin: 0 auto;
     margin-top: 200px;
     background-color: red;
+
+    .tarifs {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+    }
   }
 
   /*------------------------------CONTACT---------------------------------*/
