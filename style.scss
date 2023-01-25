@@ -10,6 +10,7 @@
 body {
     position: relative;
     background-color: black;
+    font-family: 'Roboto Condensed';
 }
 
 
@@ -161,6 +162,8 @@ nav .logo {
   padding-top: 40px;
   width: 100vw;
   color: white;
+  border-top: 1px solid grey;
+  margin-top: 40px;
 
   .footer-content {
     display: flex;
@@ -195,14 +198,13 @@ nav .logo {
 
     li{
       margin: 0 10px;
-
+      
       a {
         text-decoration: none;
         color: #fff;
         border: 1.1px solid white;
         padding: 8px;
         border-radius: 50%;
-        width: 35px;
       }
     }
   }
@@ -232,25 +234,7 @@ nav .logo {
     }
   }
 
-  .footer-bottom {
-    background-color: grey;
-    width: 100vw;
-    padding: 20px;
-    text-align: center;
 
-    p {
-      text-align: center;
-      font-size: 14px;
-      word-spacing: 2px;
-      text-transform: capitalize;
-
-      a {
-        color: #44bae8;
-        font-size: 16px;
-        text-decoration: none;
-      }
-    }
-  }
   @media (max-width:500px) {
    .footer-menu ul {
       display: inline;
@@ -269,10 +253,39 @@ nav .logo {
     color: #f1f1f1;
     margin: 0 auto;
     margin-top: 200px;
-    background-color: red;
+    font-family: 'Roboto Condensed';
 
     .container-pitch {
+
       text-align: center;
+
+      h1 {
+        margin-bottom: 40px;
+      }
+
+
+
+      p {
+        font-size: 20px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        max-width: 70%;
+        text-align: justify;
+        min-width: 300px;
+      }
+
+      ul {
+        text-align: start;
+        max-width: 30%;
+        min-width: 200px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+        li {
+          margin-bottom: 10px;
+          text-align: justify;
+        }
+      }
     }
 
     .tarifs {
@@ -281,6 +294,13 @@ nav .logo {
       grid-template-columns: repeat(2, 2fr);
       max-width: 60%;
       margin: 0 auto;
+
+      h3 {
+        text-align: center;
+        margin-bottom: 10px;
+        text-decoration: underline;
+        
+      }
     }
 
     .promesses {
