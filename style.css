@@ -257,16 +257,30 @@ footer .footer-bottom p a {
 .coaching-domicile {
   max-width: 80%;
   color: #f1f1f1;
-  text-align: center;
   margin: 0 auto;
   margin-top: 200px;
   background-color: red;
 }
+.coaching-domicile .container-pitch {
+  text-align: center;
+}
 .coaching-domicile .tarifs {
   display: grid;
+  grid-gap: 2rem;
   grid-template-columns: repeat(2, 2fr);
+  max-width: 60%;
+  margin: 0 auto;
+}
+.coaching-domicile .promesses {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
 }
 
+@media (max-width: 1000px) {
+  .coaching-domicile .tarifs {
+    grid-template-columns: 1fr;
+  }
+}
 /*------------------------------CONTACT---------------------------------*/
 .contact {
   padding: 40px 15%;

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Dharma Gothic';
+    src: local('Dharma Gothic E Regular'), local('Dharma-Gothic-E-Regular'),
+        url('DharmaGothicE-Regular.woff2') format('woff2'),
+        url('DharmaGothicE-Regular.woff') format('woff'),
+        url('DharmaGothicE-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
