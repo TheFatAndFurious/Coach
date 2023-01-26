@@ -306,6 +306,7 @@ footer .footer-menu ul li a:hover {
   text-align: justify;
   max-width: 70%;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 .coaching-domicile .methode span {
   color: red;
@@ -315,11 +316,21 @@ footer .footer-menu ul li a:hover {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
 }
+.coaching-domicile .packs h3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.coaching-domicile .packs .essentiel, .coaching-domicile .packs .decouverte, .coaching-domicile .packs .ideal {
+  border: 1px solid white;
+  margin-right: 10px;
+  border-radius: 5px;
+}
 .coaching-domicile .packs ul li {
   list-style: none;
   text-align: left;
   max-width: 90%;
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 @media (max-width: 1000px) {
