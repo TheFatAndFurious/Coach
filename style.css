@@ -246,11 +246,9 @@ footer .footer-menu ul li a:hover {
   margin: 0 auto;
   margin-top: 200px;
   font-family: "Roboto Condensed";
-}
-.coaching-domicile .container-pitch {
   text-align: center;
 }
-.coaching-domicile .container-pitch h1 {
+.coaching-domicile h1 {
   margin-bottom: 40px;
 }
 .coaching-domicile .container-pitch h3 {
@@ -297,10 +295,31 @@ footer .footer-menu ul li a:hover {
 }
 .coaching-domicile .promesses ul {
   list-style: none;
+  margin-bottom: 40px;
 }
 .coaching-domicile .promesses ul li {
   margin-bottom: 5px;
   margin-left: 5px;
+  text-align: left;
+}
+.coaching-domicile .methode p {
+  text-align: justify;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.coaching-domicile .methode span {
+  color: red;
+  font-weight: bold;
+}
+.coaching-domicile .packs {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+.coaching-domicile .packs ul li {
+  list-style: none;
+  text-align: left;
+  max-width: 90%;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 1000px) {

@@ -254,14 +254,14 @@ nav .logo {
     margin: 0 auto;
     margin-top: 200px;
     font-family: 'Roboto Condensed';
+    text-align: center;
 
+    h1 {
+      margin-bottom: 40px;
+    }
     .container-pitch {
 
-      text-align: center;
 
-      h1 {
-        margin-bottom: 40px;
-      }
 
       h3 {
         margin-bottom: 40px;
@@ -316,14 +316,43 @@ nav .logo {
 
       ul {
         list-style: none;
+        margin-bottom: 40px;
 
         li {
           margin-bottom: 5px;
           margin-left: 5px;
+          text-align: left;
         }
       }
 
 
+    }
+
+    .methode {
+      p {
+        text-align: justify;
+        max-width: 70%;
+        margin: 0 auto;
+      }
+      span {
+        color: red;
+        font-weight: bold;
+      }
+    }
+
+    .packs {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+
+      ul {
+        li {
+          list-style: none;
+          text-align: left;
+          max-width: 90%;
+          margin-bottom: 5px;
+
+        }
+      }
     }
   }
 
