@@ -263,7 +263,9 @@ nav .logo {
         margin-bottom: 40px;
       }
 
-
+      h3 {
+        margin-bottom: 40px;
+      }
 
       p {
         font-size: 20px;
@@ -306,6 +308,22 @@ nav .logo {
     .promesses {
       display: grid;
       grid-template-columns: repeat(3, 2fr);
+
+      h3 {
+        margin-bottom: 20px;
+        text-decoration: underline;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          margin-bottom: 5px;
+          margin-left: 5px;
+        }
+      }
+
+
     }
   }
 
@@ -314,8 +332,18 @@ nav .logo {
       .tarifs {
         grid-template-columns: 1fr;
       }
+
+      .promesses {
+        grid-template-columns: 1fr;
+
+        h3 {
+          text-align: center;
+        }
+      }
     }
   }
+
+
 
   /*------------------------------CONTACT---------------------------------*/
   .contact {

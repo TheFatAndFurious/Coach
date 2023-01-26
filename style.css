@@ -253,6 +253,9 @@ footer .footer-menu ul li a:hover {
 .coaching-domicile .container-pitch h1 {
   margin-bottom: 40px;
 }
+.coaching-domicile .container-pitch h3 {
+  margin-bottom: 40px;
+}
 .coaching-domicile .container-pitch p {
   font-size: 20px;
   margin: 0 auto;
@@ -288,10 +291,27 @@ footer .footer-menu ul li a:hover {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
 }
+.coaching-domicile .promesses h3 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.coaching-domicile .promesses ul {
+  list-style: none;
+}
+.coaching-domicile .promesses ul li {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
 
 @media (max-width: 1000px) {
   .coaching-domicile .tarifs {
     grid-template-columns: 1fr;
+  }
+  .coaching-domicile .promesses {
+    grid-template-columns: 1fr;
+  }
+  .coaching-domicile .promesses h3 {
+    text-align: center;
   }
 }
 /*------------------------------CONTACT---------------------------------*/
